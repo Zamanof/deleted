@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "type": "secrets.user"
+    },
+    "apis1": {
+      "ignored": "true",
+      "type": "apis"
+    },
+    "mssql1": {
+      "secretStore": null,
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/iustaapidbserver/databases/IUstaApi_db",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:UstaDbConnectionString",
+      "dynamicId": null
+    }
+  }
+}
