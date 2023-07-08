@@ -2,6 +2,7 @@
 
 public class Repairman : HumanBase
 {
+    public List<Order> Orders { get; set; }
     public string Category { get; set; }
     public DateTime JoinDate { get; set; }
     public float HourlyPrice { get; set; }

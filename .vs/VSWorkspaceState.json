@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\api",
+    "\\api\\IUstaApi"
   ],
+  "SelectedNode": "\\api\\IUstaApi\\IUstaApi.sln",
   "PreviewInSolutionExplorer": false
 }

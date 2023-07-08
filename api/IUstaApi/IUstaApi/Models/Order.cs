@@ -6,7 +6,7 @@ public class Order
     public string Title { get; set; }
     public string Service { get; set; }
     public string CustomerId { get; set; }
-    public List<Repairman> Repairman { get; set; }
+    public List<Repairman> Repairmen { get; set; }
     public string Category { get; set; }
     public int OrderStatus { get; set; }
     public float TotalAmount { get; set; }
