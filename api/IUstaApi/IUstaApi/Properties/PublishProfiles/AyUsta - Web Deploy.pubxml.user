@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAd81eBDx88EaVZUh26wbRJQAAAAACAAAAAAADZgAAwAAAABAAAACcYEZNervkjBZZDEx2qieOAAAAAASAAACgAAAAEAAAAPJnfCjnKBuH4PzS66WhzIyAAAAArE3l4RopL9S9gPeDepDv7xx7eYXfZSCq8sQp/YSJTYbpCW+/69llWgTPI7lCZJ7Fg4J0zOU7+ULSliaYPYdYPEMFb1MDCA/uXaxeyfbVYkXLd090u19evgVzw0fFj8iDwAY3+IvQGURWroKw5ZjPtFMhoSWV1RVMOvjidAQFgdIUAAAAdM8wa+o8UgIQFtD1+KwjRDDPdpg=</EncryptedPassword>
+    <History>False|2023-07-08T19:29:59.0222907Z;False|2023-07-08T22:52:24.5321705+04:00;True|2023-07-08T22:45:28.6362136+04:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="UstaDbConnectionString">
+      <Value>Server=tcp:iustaserver.database.windows.net,1433%3bInitial Catalog=IUstaDB%3bPersist Security Info=False%3bUser ID=IUstaDB%3bPassword=Usta12345%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="IUstaApi.Database.IUstaDBContext">
+      <Value>Server=tcp:iustaserver.database.windows.net,1433%3bInitial Catalog=IUstaDB%3bPersist Security Info=False%3bUser ID=IUstaDB%3bPassword=Usta12345%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
